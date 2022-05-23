@@ -8,6 +8,7 @@
     display: flex;
     flex: auto;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .header {
@@ -29,13 +30,53 @@ ul {
     flex: auto;
 
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 10px;
 
     justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 14px;
+    margin-right: 100px;
+}
+
+.box1.v2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1.v2.h1 {
+    margin-left: 100px;
+    flex-direction: column;
+    width: 200;
+    align-items: flex-start;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 10px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.box1.v2.h2 {
+    background-color: #e5e7eb71;
+    color: #E5E7EB;
+    font: 9px;
+    height: 200;
+    Width: 400;
     margin-right: 100px;
 }
 
@@ -60,11 +101,12 @@ ul {
 
 .footer {
     background-color: #1F2937;
+    padding: 100;
 }
 
 
 .copyright {
-    font-size: 18px;
+    font-size: 10px;
     color: #E5E7EB;
     text-align: center;
 }
