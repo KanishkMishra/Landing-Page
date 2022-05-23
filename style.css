@@ -94,6 +94,38 @@ ul {
     margin: 0px;
     padding: 20px;
     flex: auto;
+    padding-bottom: 72px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pics {
+    height: 84px;
+    width: 84px;
+    border-radius: 6px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.text {
+    font-size: 10px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+}
+
+.info {
+    width: 90px;
 }
 
 .box3 {
