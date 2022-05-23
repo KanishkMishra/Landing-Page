@@ -73,6 +73,8 @@ ul {
     color: #F9FAF8;
     border-color: #F9FAF8;
     border-radius: 5px;
+    height: 22px;
+    width: 90px;
 }
 
 .box1.v2.h2 {
@@ -129,7 +131,7 @@ ul {
 }
 
 .box3 {
-    padding: 50px 100px;
+    padding: 100px;
     flex: auto;
     background-color: #E5E7EB;
 }
@@ -151,13 +153,32 @@ ul {
 .box4 {
     padding: 20px;
     flex: auto;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.box4.words {
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: 20px 90px;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .footer {
     background-color: #1F2937;
     padding: 10px;
 }
-
 
 .copyright {
     font-size: 10px;
